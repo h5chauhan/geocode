@@ -1,10 +1,11 @@
 # geocode
  
  This is a Spring Boot Web rest service that takes in address and uses google maps geocde api to getlat/long for the address.
+ Camel http4 is used to make call to google maps api and xmljson module is used to convert the xml response to json.
  To call the service use following url
-
- <http://localhost:8080/geocode/545+Mission+ST+San+Francisco+CA>
-
+```
+ curl http://localhost:8080/geocode/545+Mission+ST+San+Francisco+CA
+```
  
  To run test cases use following  
  ```mvn test```
