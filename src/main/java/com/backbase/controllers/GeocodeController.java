@@ -55,8 +55,4 @@ public class GeocodeController {
         return out;
     }
 
-    public void setTemplate(ProducerTemplate template) {
-        this.template = template;
-    }
-
 }
